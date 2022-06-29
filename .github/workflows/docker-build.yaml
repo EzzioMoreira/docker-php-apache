@@ -3,10 +3,11 @@ name: "Valida role ansible"
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
 jobs:
   valida:
     uses: "williamsanmartin4/cicd_centralizado/.github/workflows/docker_build.yaml@pipeline_docker"
     with:
       tag: "latest"
+
