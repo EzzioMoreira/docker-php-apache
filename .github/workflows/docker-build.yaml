@@ -7,7 +7,7 @@ on:
   pull_request:
 jobs:
   valida:
-    uses: "williamsanmartin4/cicd_centralizado/.github/workflows/docker_build.yaml@pipeline_docker"
+    uses: "williamsanmartin4/cicd_centralizado/.github/workflows/docker_build.yaml@ddb9297e45946de3a0b9b73d5df64a94a71010af"
     with:
       tag: "latest"
 
